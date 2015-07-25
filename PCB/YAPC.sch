@@ -28,15 +28,17 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:stm32f407ixh
+LIBS:YAPC-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
-Title ""
+Sheet 1 2
+Title "YAPC"
 Date ""
 Rev ""
-Comp ""
+Comp "Studio CM"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -44,4 +46,10 @@ Comment4 ""
 $EndDescr
 Text Notes 5050 3600 0    60   ~ 0
 CPU Block: STM32F407IEH6\nStepper Driver: A4988 (5x)\nLAN PHY: LAN8720A\nMOSFETs:\nPSU (Switching):\nMicro SD Card Holder:
+$Sheet
+S 9400 5900 2250 1650
+U 55B5AEC5
+F0 "YAPC Primary CPU" 60
+F1 "YAPC_PriCPU.sch" 60
+$EndSheet
 $EndSCHEMATC
