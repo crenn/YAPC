@@ -45,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 5050 3600 0    60   ~ 0
-CPU Block: STM32F407IEH6\nStepper Driver: A4988 (5x)\nLAN PHY: LAN8720A\nMOSFETs:\nPSU (Switching):\nMicro SD Card Holder:
+CPU Block: STM32F407IEH6\nStepper Driver: A4988SETTR-T (5x)\nLAN PHY: LAN8720A\nLAN CLK: 501AAA50M0000DAG\nLAN RJ45: ARJC01-111002AR\nMOSFETs:\nPSU (Switching): L7987\nMicro SD Card Holder:
 $Sheet
 S 9400 5900 2250 1650
 U 55B5AEC5
