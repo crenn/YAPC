@@ -451,4 +451,66 @@ Wire Wire Line
 	9450 7500 10150 7500
 Wire Wire Line
 	10150 7500 10150 7350
+Text Label 3350 2100 0    60   ~ 0
+ETH_RMII_REF_CLK
+Text Label 3350 2700 0    60   ~ 0
+ETH_RMII_CRS_DV
+Text Label 3350 2200 0    60   ~ 0
+ETH_MDIO
+Text Label 9550 7100 0    60   ~ 0
+ETH_RMII_RX_ER
+Text Label 5350 7200 0    60   ~ 0
+ETH_RMII_TX_EN
+Text Label 5350 7400 0    60   ~ 0
+ETH_RMII_TXD0
+Text Label 5350 7500 0    60   ~ 0
+ETH_RMII_TXD1
+Text Label 7350 2100 0    60   ~ 0
+ETH_MDC
+Text Label 7350 2400 0    60   ~ 0
+ETH_RMII_RXD0
+Text Label 7350 2500 0    60   ~ 0
+ETH_RMII_RXD1
+Text Label 3350 2300 0    60   ~ 0
+OTG_HS_ULPI_D0
+Text Label 3350 2500 0    60   ~ 0
+OTG_HS_ULPI_CK
+Text Label 5400 2000 0    60   ~ 0
+OTG_HS_ULPI_D1
+Text Label 5400 2100 0    60   ~ 0
+OTG_HS_ULPI_D2
+Text Label 5400 2500 0    60   ~ 0
+OTG_HS_ULPI_D7
+Text Label 5400 3000 0    60   ~ 0
+OTG_HS_ULPI_D3
+Text Label 5400 3100 0    60   ~ 0
+OTG_HS_ULPI_D4
+Text Label 5400 3200 0    60   ~ 0
+OTG_HS_ULPI_D5/OTG_HS_ID
+Text Label 5400 3300 0    60   ~ 0
+OTG_HS_ULPI_D6
+Text Label 7350 2000 0    60   ~ 0
+OTG_HS_ULPI_STP
+Text Label 7350 2200 0    60   ~ 0
+OTG_HS_ULPI_DIR
+Text Label 7350 2300 0    60   ~ 0
+OTG_HS_ULPI_NXT
+Text Label 5400 3400 0    60   ~ 0
+OTG_HS_DM
+Text Label 5400 3500 0    60   ~ 0
+OTG_HS_DP
+Text Label 3350 2400 0    60   ~ 0
+OTG_HS_SOF
+Text Label 7350 2800 0    60   ~ 0
+SDIO_D0
+Text Label 7350 2900 0    60   ~ 0
+SDIO_D1
+Text Label 7350 3000 0    60   ~ 0
+SDIO_D2
+Text Label 7350 3100 0    60   ~ 0
+SDIO_D3
+Text Label 7350 3200 0    60   ~ 0
+SDIO_CK
+Text Label 9350 2200 0    60   ~ 0
+SDIO_CMD
 $EndSCHEMATC
