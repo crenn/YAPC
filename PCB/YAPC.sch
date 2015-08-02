@@ -29,13 +29,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:stm32f407ixh
+LIBS:lan8720a
 LIBS:YAPC-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 2
-Title "YAPC"
+Sheet 1 3
+Title "Yet Another Printer Controller"
 Date ""
 Rev ""
 Comp "Studio CM"
@@ -51,5 +52,11 @@ S 9400 5900 2250 1650
 U 55B5AEC5
 F0 "YAPC Primary CPU" 60
 F1 "YAPC_PriCPU.sch" 60
+$EndSheet
+$Sheet
+S 12000 5900 2150 1650
+U 55BDA0EC
+F0 "YAPC LAN Interface" 60
+F1 "YAPC_LAN.sch" 60
 $EndSheet
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=27/07/2015 11:49:06 PM
+update=2/08/2015 12:18:01 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -57,5 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=stm32f407ixh
-[general]
-version=1
+LibName31=lan8720a
