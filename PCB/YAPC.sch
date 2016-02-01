@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 3
+Sheet 1 6
 Title "Yet Another Printer Controller"
 Date ""
 Rev ""
@@ -50,13 +50,37 @@ CPU Block: STM32F407IEH6\nStepper Driver: A4988SETTR-T (5x)\nLAN PHY: LAN8720A\n
 $Sheet
 S 9400 5900 2250 1650
 U 55B5AEC5
-F0 "YAPC Primary CPU" 60
+F0 "Primary CPU" 60
 F1 "YAPC_PriCPU.sch" 60
 $EndSheet
 $Sheet
 S 12000 5900 2150 1650
 U 55BDA0EC
-F0 "YAPC LAN Interface" 60
-F1 "YAPC_LAN.sch" 60
+F0 "LAN and USB Interfaces" 60
+F1 "YAPC_LAN_USB.sch" 60
+$EndSheet
+$Sheet
+S 12000 7800 2150 1650
+U 56AFC97A
+F0 "User Interfaces (Buttons, LCD, Micro SD, etc)" 60
+F1 "YAPC_USER_INTERFACES.sch" 60
+$EndSheet
+$Sheet
+S 9400 7800 2250 1650
+U 56AFC9A7
+F0 "Stepper Drivers and Safety Cutoff" 60
+F1 "YAPC_STEPPER_DRIVERS.sch" 60
+$EndSheet
+$Sheet
+S 6600 7800 2150 1700
+U 56AFC9F3
+F0 "Heater drivers and Temperature measurement" 60
+F1 "YAPC_HEATER_TEMP.sch" 60
+$EndSheet
+$Sheet
+S 6600 5900 2400 1700
+U 56AFCC20
+F0 "Power Supply Rails and Regulators" 60
+F1 "YAPC_PSU.sch" 60
 $EndSheet
 $EndSCHEMATC
